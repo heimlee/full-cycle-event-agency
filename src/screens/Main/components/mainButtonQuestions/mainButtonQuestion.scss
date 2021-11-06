@@ -1,0 +1,32 @@
+.main-button-question {
+  text-align: center;
+  font-size: 16px;
+  line-height: 140%;
+  color: #373737;
+  cursor: pointer;
+}
+
+.question-where {
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  margin-left: 19px;
+}
+
+.question-what {
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+  margin-right: 19px;
+}
+
+.question-who {
+  text-align: center;
+  margin-bottom: 19px;
+}
