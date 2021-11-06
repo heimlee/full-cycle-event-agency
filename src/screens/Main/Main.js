@@ -4,6 +4,7 @@ import { MainButtonSwitchLanguages } from './components/mainButtonSwitchLanguage
 import { MainLogo } from './components/mainLogo/MainLogo';
 import { MainButtonQuestion } from './components/mainButtonQuestions/MainButtonQuestion';
 import { MainFullCycle } from './components/mainFullCycle/MainFullCycle';
+import { MainTitle } from './components/mainTitle/MainTitle';
 
 import './main.scss';
 
@@ -17,6 +18,7 @@ export const Main = () => {
       <MainButtonQuestion title="Where?" className="question-where" />
       <section className="main-container__full-cycle-section">
         <MainFullCycle />
+        <MainTitle />
       </section>
       <MainButtonQuestion title="What?" className="question-what" />
       <footer className="main-container__footer">
