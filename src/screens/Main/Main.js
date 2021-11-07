@@ -17,12 +17,16 @@ export const Main = () => {
         <MainButtonSwitchLanguages />
         <MainLogo />
       </header>
-      <MainButtonQuestion title="Where?" className="question-where" />
+      <div className="main-container__sidebar-left">
+        <MainButtonQuestion title="Where?" className="question-where" />
+      </div>
       <section className="main-container__full-cycle-section">
         <MainFullCycle />
         <MainTitle />
       </section>
-      <MainButtonQuestion title="What?" className="question-what" />
+      <div className="main-container__sidebar-right">
+        <MainButtonQuestion title="What?" className="question-what" />
+      </div>
       <footer className="main-container__footer">
         <MainButtonQuestion title="Who?" className="question-who" />
       </footer>
