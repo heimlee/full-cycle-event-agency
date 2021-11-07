@@ -2,13 +2,9 @@ import React from 'react';
 
 import { Main } from './screens/Main/Main';
 
-import './App.scss';
-
 function App() {
   return (
-    <div>
-      <Main />
-    </div>
+    <Main />
   );
 }
 

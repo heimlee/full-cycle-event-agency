@@ -2,14 +2,18 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
+
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 578px;
-  height: 578px;
-  background: #FFCB46;
-  filter: blur(76px);
+
   border-radius: 50%;
+  height: 578px;
+  width: 578px;
+
+  background: #FFCB46;
+
+  filter: blur(76px);
 }

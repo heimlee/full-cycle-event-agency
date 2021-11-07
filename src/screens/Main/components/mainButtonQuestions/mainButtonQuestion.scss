@@ -1,26 +1,35 @@
 .main-button-question {
-  text-align: center;
-  font-size: 22px;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
   position: relative;
-  
+
+  display: inline-block;
+
+  color: #fff;
+
+  font-size: 22px;
+  text-align: center;
+
+  cursor: pointer;
+
   &:hover {
     font-style: italic;
   }
 
   &:after {
     content: '';
+
     position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
     left: 0;
-    background-color: #fff;
+    bottom: 0;
+
+    transform: scaleX(0);
     transform-origin: bottom right;
+
     transition: transform 650ms ease-out;
+
+    height: 2px;
+    width: 100%;
+
+    background-color: #fff;
   }
 
   &:hover:after {
@@ -35,6 +44,7 @@
   -o-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
+
   margin-left: 19px;
 }
 
@@ -44,10 +54,12 @@
   -o-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
+
   margin-right: 19px;
 }
 
 .question-who {
-  text-align: center;
   margin-bottom: 19px;
+
+  text-align: center;
 }

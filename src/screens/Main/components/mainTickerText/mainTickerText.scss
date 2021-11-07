@@ -1,26 +1,30 @@
 .main-ticker-text-container {
   position: absolute;
-  width: 100%;
-  height: 100vh;
+
   overflow: hidden;
+
+  height: 100vh;
+  width: 100%;
 }
 
 .main-ticker-text-container .scroll {
   display: flex;
+
   width: 100%;
 }
 
 .main-ticker-text-container .scroll div {
-  color: #373737;
-  font-size: 52px;
-  line-height: 110%;
-  font-style: italic;
   opacity: 0.1;
-  white-space: nowrap;
-  font-weight: 900;
-  text-transform: uppercase;
+
   animation: animate 600s linear infinite;
   animation-delay: -600s;
+
+  font-size: 57px;
+  font-style: italic;
+  font-weight: 900;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #373737;
 }
 
 .main-ticker-text-container .scroll div:nth-child(2) {
@@ -52,9 +56,9 @@
 }
 
 .main-ticker-text-container .scroll.text1 {
-  transform: translateX(-200px) translateY(570px) rotate(329deg);
+  transform: translateX(-200px) translateY(560px) rotate(329deg);
 }
 
 .main-ticker-text-container .scroll.text2 {
-  transform: translateX(470px) translateY(20px) rotate(149deg);
+  transform: translateX(470px) translateY(5px) rotate(149deg);
 }
