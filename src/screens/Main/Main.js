@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { MainTickerText } from './components/mainTickerText/MainTickerText';
 import { MainButtonSwitchLanguages } from './components/mainButtonSwitchLanguages/MainButtonSwitchLanguages';
 import { MainLogo } from './components/mainLogo/MainLogo';
 import { MainButtonQuestion } from './components/mainButtonQuestions/MainButtonQuestion';
@@ -11,6 +12,7 @@ import './main.scss';
 export const Main = () => {
   return(
     <main className="main-container">
+      <MainTickerText />
       <header className="main-container__header">
         <MainButtonSwitchLanguages />
         <MainLogo />
