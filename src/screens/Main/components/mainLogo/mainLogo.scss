@@ -1,11 +1,28 @@
 .logo {
-  color: #000000;
-  font-size: 28px;
-  font-style: normal;
+  position: relative;
+  display: inline-block;
   font-weight: 600;
-  line-height: 31px;
-  letter-spacing: 0em;
-  text-align: center;
+  font-size: 32px;
+  letter-spacing: 1px;
+  color: transparent;
+  overflow: hidden;
   text-transform: uppercase;
-  margin-top: 31px;
+  -webkit-text-stroke: 1px #000000;
+  margin-top: 22px;
+
+  &::before {
+    position: absolute;
+    content: attr(data-content);
+    top: 0;
+    left: 0;
+    color: #000;
+    overflow: hidden;
+    transition: width 650ms ease;
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  &:hover::before {
+    width: 0;
+  }
 }

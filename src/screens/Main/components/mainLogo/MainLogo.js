@@ -4,6 +4,6 @@ import './mainLogo.scss';
 
 export const MainLogo = () => {
   return(
-    <div className="logo">Logo</div>
+    <div className="logo" data-content="Logo">Logo</div>
   )
 };
