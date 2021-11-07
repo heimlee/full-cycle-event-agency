@@ -3,9 +3,9 @@
 
   display: inline-block;
 
-  color: #fff;
+  color: #FFFFFF;
 
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
 
   cursor: pointer;
@@ -29,7 +29,7 @@
     height: 2px;
     width: 100%;
 
-    background-color: #fff;
+    background-color: #FFFFFF;
   }
 
   &:hover:after {
@@ -62,4 +62,10 @@
   margin-bottom: 19px;
 
   text-align: center;
+}
+
+@media (min-width: 1440px) {
+  .main-button-question {
+    font-size: 22px;
+  }
 }

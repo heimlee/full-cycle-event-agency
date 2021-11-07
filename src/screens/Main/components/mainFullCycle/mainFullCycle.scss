@@ -10,10 +10,24 @@
   transform: translate(-50%, -50%);
 
   border-radius: 50%;
-  height: 578px;
-  width: 578px;
+  height: 294px;
+  width: 294px;
 
   background: #FFCB46;
 
   filter: blur(76px);
+}
+
+@media (min-width: 768px) {
+  .cycle {
+    height: 482px;
+    width: 482px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .cycle {
+    height: 578px;
+    width: 578px;
+  }
 }

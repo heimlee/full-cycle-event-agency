@@ -3,6 +3,7 @@ import React from 'react';
 import { MainTickerText } from './components/mainTickerText/MainTickerText';
 import { MainButtonSwitchLanguages } from './components/mainButtonSwitchLanguages/MainButtonSwitchLanguages';
 import { MainLogo } from './components/mainLogo/MainLogo';
+import { MainNavMenu } from './components/mainNavMenu/MainNavMenu';
 import { MainButtonQuestion } from './components/mainButtonQuestions/MainButtonQuestion';
 import { MainFullCycle } from './components/mainFullCycle/MainFullCycle';
 import { MainTitle } from './components/mainTitle/MainTitle';
@@ -16,6 +17,7 @@ export const Main = () => {
       <header className="main-container__header">
         <MainButtonSwitchLanguages />
         <MainLogo />
+        <MainNavMenu />
       </header>
       <div className="main-container__sidebar-left">
         <MainButtonQuestion title="Where?" className="question-where" />

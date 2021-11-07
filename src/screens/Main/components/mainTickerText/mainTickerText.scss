@@ -19,7 +19,7 @@
   animation: animate 600s linear infinite;
   animation-delay: -600s;
 
-  font-size: 57px;
+  font-size: 31px;
   font-style: italic;
   font-weight: 900;
   text-transform: uppercase;
@@ -33,7 +33,7 @@
 }
 
 .main-ticker-text-container .scroll div span {
-  -webkit-text-stroke: 1px #000;
+  -webkit-text-stroke: 1px #000000;
   color: transparent;
 }
 
@@ -56,9 +56,71 @@
 }
 
 .main-ticker-text-container .scroll.text1 {
-  transform: translateX(-200px) translateY(560px) rotate(329deg);
+  transform: translateX(-200px) translateY(715px) rotate(299deg);
 }
 
 .main-ticker-text-container .scroll.text2 {
-  transform: translateX(470px) translateY(5px) rotate(149deg);
+  transform: translateX(125px) translateY(5px) rotate(119deg);
+}
+
+@media (min-width: 414px) {
+  .main-ticker-text-container .scroll.text1 {
+    transform: translateX(-200px) translateY(760px) rotate(299deg);
+  }
+
+  .main-ticker-text-container .scroll.text2 {
+    transform: translateX(140px) translateY(5px) rotate(119deg);
+  }
+}
+
+@media (min-width: 768px) {
+  .main-ticker-text-container .scroll div {
+    font-size: 46px;
+  }
+
+  .main-ticker-text-container .scroll.text1 {
+    transform: translateX(-200px) translateY(810px) rotate(307deg);
+  }
+
+  .main-ticker-text-container .scroll.text2 {
+    transform: translateX(260px) translateY(5px) rotate(127deg);
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-ticker-text-container .scroll.text1 {
+    transform: translateX(-200px) translateY(545px) rotate(323deg);
+  }
+
+  .main-ticker-text-container .scroll.text2 {
+    transform: translateX(315px) translateY(5px) rotate(143deg);
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-ticker-text-container .scroll div {
+    font-size: 57px;
+  }
+
+  .main-ticker-text-container .scroll.text1 {
+    transform: translateX(-200px) translateY(560px) rotate(329deg);
+  }
+
+  .main-ticker-text-container .scroll.text2 {
+    transform: translateX(440px) translateY(5px) rotate(149deg);
+  }
+}
+
+@media (min-width: 2560px) {
+  .main-ticker-text-container .scroll div {
+    font-size: 64px;
+  }
+
+  .main-ticker-text-container .scroll.text1 {
+    transform: translateX(-200px) translateY(770px) rotate(333deg);
+  }
+
+  .main-ticker-text-container .scroll.text2 {
+    transform: translateX(890px) translateY(5px) rotate(153deg);
+  }
 }
