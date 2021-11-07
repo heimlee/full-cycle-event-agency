@@ -19,3 +19,37 @@
   left: 32px;
   top: 36px;
 }
+
+.row-icon-languages {
+  position: fixed;
+  top: -100px;
+  left: 74px;
+  width: 200px;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.row-icon-languages.active {
+  top: 37px;
+}
+
+.row-icon-languages__box {
+  display: flex;
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.row-icon-languages__box-element {
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
