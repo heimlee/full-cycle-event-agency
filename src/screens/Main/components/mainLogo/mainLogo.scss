@@ -1,0 +1,55 @@
+.logo {
+  position: relative;
+
+  display: inline-block;
+
+  overflow: hidden;
+
+  margin-top: 22px;
+
+  font-size: 20px;
+  font-weight: 600;
+  -webkit-text-stroke: 1px #000000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: transparent;
+
+  &::before {
+    content: attr(data-content);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    overflow: hidden;
+
+    transition: width 650ms ease;
+
+    width: 100%;
+
+    white-space: nowrap;
+    color: #000000;
+  }
+
+  &:hover::before {
+    width: 0;
+  }
+}
+
+@media (min-width: 414px) {
+  .logo {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .logo {
+    font-size: 31px;
+  }
+}
