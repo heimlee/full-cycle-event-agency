@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/full-cycle-event-agency/static/css/main.91092ef2.chunk.css",
+    "main.js": "/full-cycle-event-agency/static/js/main.5b600680.chunk.js",
+    "main.js.map": "/full-cycle-event-agency/static/js/main.5b600680.chunk.js.map",
+    "runtime-main.js": "/full-cycle-event-agency/static/js/runtime-main.341143f1.js",
+    "runtime-main.js.map": "/full-cycle-event-agency/static/js/runtime-main.341143f1.js.map",
+    "static/js/2.70373965.chunk.js": "/full-cycle-event-agency/static/js/2.70373965.chunk.js",
+    "static/js/2.70373965.chunk.js.map": "/full-cycle-event-agency/static/js/2.70373965.chunk.js.map",
+    "index.html": "/full-cycle-event-agency/index.html",
+    "static/css/main.91092ef2.chunk.css.map": "/full-cycle-event-agency/static/css/main.91092ef2.chunk.css.map",
+    "static/js/2.70373965.chunk.js.LICENSE.txt": "/full-cycle-event-agency/static/js/2.70373965.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.341143f1.js",
+    "static/js/2.70373965.chunk.js",
+    "static/css/main.91092ef2.chunk.css",
+    "static/js/main.5b600680.chunk.js"
+  ]
+}
